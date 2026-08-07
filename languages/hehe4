@@ -1,0 +1,16 @@
+using System.Diagnostics;
+
+class Program
+{
+    static void Main()
+    {
+        var process = Process.Start(new ProcessStartInfo
+        {
+            FileName = "echo",
+            Arguments = "Hello, World!",
+            UseShellExecute = false
+        });
+
+        process?.WaitForExit();
+    }
+}
