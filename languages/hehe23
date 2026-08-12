@@ -1,0 +1,2 @@
+def process = "echo Hello, World!".execute()
+process.waitFor()
