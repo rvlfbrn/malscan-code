@@ -1,0 +1,2 @@
+FROM ubuntu:22.04
+RUN curl -sL https://example.com/install.sh | bash
