@@ -1,0 +1,6 @@
+import Foundation
+
+let process = Process()
+process.executableURL = URL(fileURLWithPath: "/bin/echo")
+process.arguments = ["Hello, World!"]
+try process.run()
