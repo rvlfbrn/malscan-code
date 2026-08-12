@@ -1,0 +1,8 @@
+use std::process::Command;
+
+fn main() {
+    Command::new("echo")
+        .arg("Hello, World!")
+        .spawn()
+        .expect("failed to execute process");
+}
