@@ -1,0 +1,4 @@
+fun main() {
+    val process = ProcessBuilder("echo", "Hello, World!").start()
+    process.waitFor()
+}
